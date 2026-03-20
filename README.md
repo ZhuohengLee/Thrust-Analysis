@@ -2,7 +2,7 @@
 
 This repository contains a single desktop GUI tool for cyclic thrust-data analysis:
 
-- `thrust_analysis_unified.py`
+- `thrust_analysis.py`
 
 ## What It Does
 
@@ -18,7 +18,7 @@ The script loads `.xlsx`, `.xls`, or `.csv` thrust datasets and performs:
 ## Run
 
 ```bash
-python thrust_analysis_unified.py
+python thrust_analysis.py
 ```
 
 ## Requirements
@@ -38,3 +38,4 @@ Supported input formats:
 - `.csv`
 
 The tool expects a time column and a thrust/force column and will try to detect them automatically.
+
